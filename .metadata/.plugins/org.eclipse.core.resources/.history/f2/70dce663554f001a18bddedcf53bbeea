@@ -2,7 +2,6 @@ package lv.diana.paysystem;
 
 import java.util.ArrayList;
 import java.util.List;
-import lv.diana.paysystem.Payee;
 
 public class PaymentSystem {
 
