@@ -1,0 +1,20 @@
+package lv.diana.paysystem;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PaymentSystem {
+
+	private List<Payer> payer;
+
+	public PaymentSystem() {
+		payer = new ArrayList<>();
+	}
+	
+	public void addPayer (Payer payer){
+		if(payer.contains(payer){
+	
+		}
+	}
+	
+}

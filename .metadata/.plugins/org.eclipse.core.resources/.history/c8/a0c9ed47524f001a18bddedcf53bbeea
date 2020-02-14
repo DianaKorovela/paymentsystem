@@ -1,0 +1,29 @@
+package lv.diana.paysystem;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PaymentSystem {
+
+	private List<Payee> payee;
+
+	public PaymentSystem(ArrayList<Object> payees) {
+		payees = new ArrayList<>();
+	}
+	
+	public void addPayer (Payee payee){
+		if(payees.contains(payee)){
+			payees.add(payee);
+	
+		}
+	}
+	public void processPayments(){
+		for(Payer payer : payers);
+		Double grossPayment = payers.grossPayment();
+		
+		System.out.println("Paying to "+payer.name());
+		System.out.println("Gross" +grossPayment);
+		System.out.println("Transfered to Account" +payer.bankAccount());
+		
+	}
+}

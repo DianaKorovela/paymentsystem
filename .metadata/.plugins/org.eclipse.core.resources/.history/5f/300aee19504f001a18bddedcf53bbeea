@@ -1,0 +1,11 @@
+package lv.diana.paysystem;
+
+public interface Payer {
+	
+	String name();
+	Double grossPayment();
+	Integer bankAccount();
+	
+	
+
+}

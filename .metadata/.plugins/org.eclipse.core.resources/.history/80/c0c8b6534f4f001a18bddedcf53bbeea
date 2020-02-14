@@ -1,0 +1,5 @@
+package lv.diana.paysystem;
+
+public interface Payer {
+
+}
