@@ -6,7 +6,7 @@ public interface Payee {
 	Double grossPayment();
 	Integer bankAccount();
 	
-	boolean contains(Payee payee);
+	boolean contains(Payee payer);
 	void add(Payee payee);
 	
 	

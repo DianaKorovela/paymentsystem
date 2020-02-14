@@ -1,0 +1,38 @@
+package lv.diana.employee;
+
+import lv.diana.paysystem.Payee;
+
+public class SalaryEmployee implements Payee {
+
+	@Override
+	public String name() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Double grossPayment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Integer bankAccount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean contains(Payee payee) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void add(Payee payee) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}
